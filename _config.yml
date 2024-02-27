@@ -104,3 +104,9 @@ deploy:
   type: 'git'
   repo: 'git@github.com:yanghongtian/yanghongtian.github.io.git'
   branch: 'main'
+# hexo-generator-searchdb
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10
