@@ -109,4 +109,11 @@ search:
   path: search.xml
   field: post
   format: html
-  limit: 10
+  limit: 1000
+
+# symbos-count-time
+symbols_count_time:
+  symbols: true # 文章字数
+  time: true # 阅读时长
+  total_symbols: false # 所有文章总字数
+  total_time: false # 所有文章阅读中时长

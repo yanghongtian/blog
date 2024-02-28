@@ -216,7 +216,7 @@ footer:
 
   # If not defined, `author` from Hexo `_config.yml` will be used.
   # Set to `false` to disable the copyright statement.
-  copyright:
+  copyright: "版权所有 Yang Hongtian"
 
   # Powered by Hexo & NexT
   powered: false
@@ -259,6 +259,9 @@ post_meta:
 symbols_count_time:
   separated_meta: true
   item_text_total: false
+  item_text_post: false
+  awl: 4
+  wpm: 250
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
 tag_icon: false
@@ -370,9 +373,10 @@ codeblock:
     dark: prism-dark
   # Add copy button on codeblock
   copy_button:
-    enable: false
+    enable: true
+    show_result: true
     # Available values: default | flat | mac
-    style:
+    style: mac
   # Fold code block
   fold:
     enable: false
@@ -383,7 +387,7 @@ back2top:
   # Back to top in sidebar.
   sidebar: false
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  scrollpercent: true
 
 # Reading progress bar
 reading_progress:
@@ -668,7 +672,7 @@ comments:
   style: tabs
   # Choose a comment system to be displayed by default.
   # Available values: disqus | disqusjs | changyan | livere | gitalk | utterances
-  active:
+  active: gitalk
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
   # Lazyload all comment systems.
@@ -678,8 +682,8 @@ comments:
     #disqus:
     #  text: Load Disqus
     #  order: -1
-    #gitalk:
-    #  order: -2
+    gitalk:
+      order: -2
 
 # Disqus
 # For more information: https://disqus.com
@@ -716,12 +720,12 @@ livere_uid: # <your_uid>
 # Gitalk
 # For more information: https://gitalk.github.io
 gitalk:
-  enable: false
-  github_id: # GitHub repo owner
-  repo: # Repository name to store issues
-  client_id: # GitHub Application Client ID
-  client_secret: # GitHub Application Client Secret
-  admin_user: # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
+  enable: true
+  github_id: yanghongtian # GitHub repo owner
+  repo: yanghongtian.github.io # Repository name to store issues
+  client_id: 31099d206e171941eca7 # GitHub Application Client ID
+  client_secret: 0ea0ab1affd59707aadf96d634c93c78c57acf8a # GitHub Application Client Secret
+  admin_user: yanghongtian # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
   distraction_free_mode: true # Facebook-like distraction free mode
   # When the official proxy is not available, you can change it to your own proxy address
   proxy: https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token # This is official proxy address
@@ -836,7 +840,7 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # For more information: http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
-  enable: false
+  enable: true
   total_visitors: true
   total_visitors_icon: fa fa-user
   total_views: true
@@ -926,3 +930,17 @@ vendors:
 css: css
 js: js
 images: images
+
+#gitment:
+#  enable:  true
+#  mint: true
+#  count: true
+#  lazy: false  						#评论懒加载，如果true，则默认不展示评论，点击按钮查看评论
+#  cleanly: false
+#  language:
+#  github_user: yanghongtian 				#github名称
+#  github_repo: yanghongtian.github.io			#上一步新建存放评论的仓库名
+#  client_id: 31099d206e171941eca7 #上面注册 OAuth Application 的 Client ID
+#  client_secret: 0ea0ab1affd59707aadf96d634c93c78c57acf8a #上面注册 OAuth Application 申请的 Client Secret
+#  proxy_gateway:
+#  redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint
