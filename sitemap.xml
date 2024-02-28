@@ -2,24 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://yanghongtian.github.io/posts/4a17b156.html</loc>
-    
-    <lastmod>2024-02-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yanghongtian.github.io/about/index.html</loc>
-    
-    <lastmod>2024-02-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://yanghongtian.github.io/tags/index.html</loc>
     
     <lastmod>2024-02-28</lastmod>
@@ -38,7 +20,34 @@
   </url>
   
   <url>
+    <loc>https://yanghongtian.github.io/about/index.html</loc>
+    
+    <lastmod>2024-02-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yanghongtian.github.io/archives/index.html</loc>
+    
+    <lastmod>2024-02-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanghongtian.github.io/posts/183707c4.html</loc>
+    
+    <lastmod>2024-02-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanghongtian.github.io/posts/4a17b156.html</loc>
     
     <lastmod>2024-02-28</lastmod>
     
